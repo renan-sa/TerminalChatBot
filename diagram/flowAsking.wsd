@@ -1,0 +1,7 @@
+@startuml FlowAsking
+title Perguntando
+Usuário -> Terminal: <Pergunta>
+Terminal -> BaseDeDados: <Termos Relevantes>
+BaseDeDados -> Terminal: <Conhecimentos Associados>
+Terminal -> Usuário: <Lista de Respostas>
+@enduml

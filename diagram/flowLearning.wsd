@@ -1,0 +1,7 @@
+@startuml FlowLearning
+title Ensinando
+Usuário -> Terminal: -e <Conhecimento>
+Terminal -> BaseDeDados: <Conhecimento Tratado>
+BaseDeDados -> Terminal: <Confirmação>
+Terminal -> Usuário: <Confirmação>
+@enduml

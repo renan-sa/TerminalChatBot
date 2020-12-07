@@ -1,0 +1,12 @@
+@startuml FlowForgetting
+title Esquencendo
+Usuário -> Terminal: <Pergunta>
+Terminal -> BaseDeDados: <Termos Relevantes>
+BaseDeDados -> Terminal: <Conhecimentos Associados>
+Terminal -> Usuário: <Lista de Respostas>
+Usuário -> Usuário: <Seleciona Resposta>
+Usuário -> Terminal: -d
+Terminal -> BaseDeDados: <Apagar Resposta>
+BaseDeDados -> Terminal: <Confirmação>
+Terminal -> Usuário: <Confirmação>
+@enduml

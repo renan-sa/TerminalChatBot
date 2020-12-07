@@ -1,0 +1,5 @@
+@startuml FlowHelp
+title Ajuda
+Usuário -> Terminal: -a
+Terminal -> Usuário: <Tela de ajuda>
+@enduml
